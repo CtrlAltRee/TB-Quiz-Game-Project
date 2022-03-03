@@ -16,8 +16,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    
 }
 
 p{
@@ -26,4 +24,22 @@ p{
 
 #btnBegin{
     padding: 20px 30px;  
+}
+
+.hide {
+    display: none;
+}
+
+.question {
+    color: black;
+}
+
+.answer {
+    color: blue;
+}
+
+div.answer:hover,
+div.answer:active {
+    color: white;
+    background-color: blue;
 }
