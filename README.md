@@ -17,7 +17,8 @@ Functionality:
 - then they are given the option to save their information to join the leaderboard.
 
 Links to the concepts used
-- https://www.interaction-design.org/literature/topics/design-thinking - https://www.w3schools.com/js/js_variables.asp 
+- https://www.interaction-design.org/literature/topics/design-thinking
+- https://www.w3schools.com/js/js_variables.asp 
 - https://www.w3schools.com/html/html_tables.asp 
 - https://www.w3schools.com/cssref/css_selectors.asp 
 - https://www.w3schools.com/css/css3_flexbox.asp 
