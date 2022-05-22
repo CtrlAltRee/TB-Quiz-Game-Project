@@ -9,21 +9,32 @@
     <script src="index.js"></script>
 </head>
 <body>
-    <div id="main-center">
-    <div class="welcome center">
-        <p>Test your front end developer skills by
-            answering the following questions.</p>
-            <a href="question.html">
-        <button id="btnBegin" onclick="doSomething();">Begin</button>
-        </a>
+    <div id="titleSection" class="left">Quiz</div>
+    <div id="gameBoard" class="middleRow">
+        <div id="welcome" class="">
+            <span>Test your front end developer skills by answering the following questionns</span>
+        </div>
+        <div>
+            <button id="startQuiz" onclick="doGame();">Begin</button>
+        </div>
+    </div>
+    <br>
+    <div id="questions" class="questionsHide">
     </div>
 
-    <div id="score-board" class="hide">
-        <div id="timerContainer">Time Remaining: <span id="timer" style="text-align: left"></span></div>
-        <div id="scoreContainer">Score: <span id="score" style="text-align: right"></span></div>
+    <div id="enterHighScore" class="hide">
+        <div>Save Your High Score</div>
+        <label for="tbInitials">Enter Your Initials</label>
+        <input type="text" id="tbInitials" placeholder="Initials Here">
+        <button id="bEnterHighScore" onclick="addScore();">Submit</button>
     </div>
-    <div id="questions">
+    <div id="highScores" class="hide">
+        <div>High Scores</div>
     </div>
+
+    <div id="scoreBoard" class="hide">
+        <div id="timerContainer" class="">Seconds Remaining: <span id="timer"></span></div>
+        <div id="scoreContainer" class="">Score: <span id="score"></span></div>
     </div>
     
 </body>
