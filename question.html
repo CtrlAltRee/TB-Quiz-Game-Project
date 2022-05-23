@@ -18,7 +18,7 @@
 
         //when user clicks begin, timer starts
         //start timer
-        let timerInterval = setInterval(updateTimer, 1000);
+        let timer = setInterval(updateTimer, 1000);
         function updateTimer() {
             countDownTimer = countDownTimer - 1;
         }
@@ -54,14 +54,16 @@
         }
 
         function nextQuestion() {
-            for(let i = 0; 1<arrayofQuestions.length; i++) {
-        };
+            for(let i = 0; i<arrayofQuestions.length; i++) {
+        }
+      }
 
         function showQuestion(questionindex) {
             let questionSection = document.getElementId('question');
             let newQuestion = document.createElement('div');
             newQuestion.id = arrayofQuestions[questionindex].id;
             newQuestion.innerText = arrayofQuestions[questionindex].question;
+            questionSection.appendChild()
         }
 
         //if question is correct next question
@@ -70,9 +72,10 @@
         //once all questions have been answered give options to save score or exit
         //if user chooses to save score, show scoreboad
     </script> -->
+
 </head> 
 <body>
-    <div class="header">
+    <div class="welcome">
         <span style="text-align: left">Time Remaining:</span>
         <span style="text-align: right">Score:</span>
     </div>
