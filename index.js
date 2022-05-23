@@ -6,7 +6,7 @@ var myScore = 0;
 var myScoreKey = 'score';
 var questIdPrefix = 'quest';
 var highScores = [];
-var highScoreKey = 'high-score;'
+var highScoreKey = 'highScores";'
 
 
 
@@ -82,7 +82,7 @@ function decrementTimer(decrementBy) {
     return parseInt(localStorage.getItem(timerKey));
 }
 
-//stop the time by clearing the intervale
+//stop the time by clearing the interval
 function stopTimer() {
     clearInterval(theTimerInterval);
 }
